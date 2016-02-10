@@ -5,7 +5,7 @@ require('./models/Posts');
 require('./models/Comments');
 require('./models/Users');
 require('./config/passport');
-mongoose.connect('mongodb://localhost/news');
+mongoose.connect('mongodb://test:test@ds058548.mongolab.com:58548/TESTMongoLab');
 
 var express = require('express');
 var path = require('path');
